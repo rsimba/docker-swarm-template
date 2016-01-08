@@ -1,0 +1,4 @@
+worker:
+  build: scrape_test_script
+  env_file: .env.worker
+  restart: always
